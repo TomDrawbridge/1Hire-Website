@@ -1,13 +1,8 @@
 // redirects/WMSH.js
 module.exports = [
   {
-    source: '/garden-buildings',
-    destination: '/garden-rooms',
-    permanent: true,
-  },
-  {
-  source: '/garden-buildings/:path*',
-  destination: '/garden-rooms/:path*',
+  source: '/2024-signup',
+  destination: '/2025-signup',
   permanent: true,
-}
+  }
 ];
